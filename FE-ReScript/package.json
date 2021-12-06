@@ -1,0 +1,26 @@
+{
+  "name": "fe-rescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.bs.js",
+  "scripts": {
+    "start": "rescript build -w",
+    "build:res": "rescript build",
+    "clean": "rescript clean",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "webpack serve",
+    "build": "webpack --config webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "5.5.0",
+    "rescript": "9.1.4",
+    "webpack": "5.64.4",
+    "webpack-cli": "4.9.1",
+    "webpack-dev-server": "4.6.0"
+  },
+  "dependencies": {
+    "@rescript/react": "0.10.3"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "fe-rescript",
+  "version": "0.0.0",
+  "sources": {
+    "dir" : "src",
+    "subdirs" : true,
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "reason": { "react-jsx": 3 },
+  "bs-dependencies": ["@rescript/react"]
+}
